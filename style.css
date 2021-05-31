@@ -1,0 +1,436 @@
+@charset "utf-8";
+
+/* skip */
+.skip {position: relative;}
+.skip a {position: absolute; left: 0; top: -50px; width: 140px; border: 1px solid #444; background: #333; color: #fff; text-align: center; padding: 10px 0;}
+.skip a:focus, .skip a:active {top: 0;}
+
+#skip {position: relative; z-index: 9999; }
+#skip a {position: absolute; left: 0; top: -50px; border:1px solid #0093bd; background-color: #fff; display: block; padding: 5px 7px;}
+#skip a:focus, #skip a:active {top: 0;}
+
+.FixedContainer {
+    padding-top: 60px;
+    position: fixed;
+    height: 100%; 
+}
+
+.MaxW {
+    width: 100%;
+    overflow-x: hidden;
+}
+.MenuContainer {
+    position: relative;
+    width: 93%;
+    max-width: 2360px;
+    margin: 0 auto;
+}
+.LOGO {
+    float: right;
+    width: 13%;
+    max-width: 300px;
+}
+a {
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+/*
+a:hover{
+    cursor:pointer;
+}
+*/
+a.UL:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.LOGO img {
+    width: 100%;
+    height: auto;
+}
+.disable, .FAKE, .MENUBTN {
+    display: none;
+}
+.FL-r {
+    float: right;
+}
+.MENU {
+    float: left;
+    white-space: nowrap;
+    width: 10.66%;
+    margin-top: -1vw;
+}
+.MENU li {
+/*    font-size: 46px;*/
+    font-weight: 600;
+}
+.MENU li:first-child {
+    padding-top: 0;
+}
+
+a.UL:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    background-color: black;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.15s ease-in-out 0s;
+    transition: all 0.15s ease-in-out 0s;   
+}
+
+.Bold{
+    font-weight:bolder;
+    font-weight:700;
+}
+.MainContainer {
+    max-width: 1620px;
+    width: 64%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-right: 0.8%;
+    position: relative;
+}
+.BorderB {
+    overflow-x: hidden;
+    position: relative;
+    clear: both;
+    border-top: 10px solid black; 
+}
+
+/* work 카테*/
+.SubTitle {
+    width: 100%;
+    line-height: 99%;
+    letter-spacing: -0.032em;
+    padding: 16.7% 0 17.5%;  
+}
+.ScrollContents, .ScrollContents2 {
+    width: 103%;
+    white-space: nowrap;
+}
+.no-select{
+touch-action: none;
+pointer-events: none;
+-webkit-user-drag: none;
+-khtml-user-drag: none;
+-moz-user-drag: none;
+-o-user-drag: none;
+user-drag: none;
+-webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none;   /* Chrome/Safari/Opera */
+-khtml-user-select: none;    /* Konqueror */
+-moz-user-select: none;      /* Firefox */
+-ms-user-select: none;       /* Internet Explorer/Edge*/
+user-select: none;
+}
+
+/* about */
+/*
+.about4 {
+    width: 40%;
+    line-height: 135%;
+}
+.about4 > p {
+    margin-top: 0;
+    white-space: normal;
+}
+.about6 {
+    width: 55%;
+    font-size: 26px;
+    line-height: 180%;
+    margin-top: -0.4%;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+*/
+.SER {
+    text-align: center;
+}
+.SER h2 {
+    line-height: 190%;
+}
+.DES {
+    line-height: 130%;
+    font-weight: 500;
+}
+.TRI {
+    width: 30.66%;
+    text-align: center;
+}
+.TRI h2 {
+    line-height: 110%;
+    font-weight: 500;
+    margin: 6% 0 8%;
+}
+.TRI p {
+    color: #a8a8a8;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 11%;
+}
+
+
+
+
+
+.HomeTitle {
+    text-align: right;
+    font-weight: 900;
+    line-height: 99%;
+    letter-spacing: -0.032em;
+    padding: 6.8% 0 8.6%;
+}
+.BorderL {
+    overflow-x: hidden;
+    position: relative;
+    clear: both;
+}
+h1 {
+    margin: 2.5% 0 1.9%;
+    font-weight: 500;
+}
+.Description {
+    line-height: 146.8%;
+    margin-bottom: 5.5%;
+    font-weight: 600;
+}
+.FL-l {
+    float: left;
+}
+.MA1 {
+    
+    
+    margin-right: 4%;
+}
+.MA2 {
+    margin-right: 4%;
+}
+.MA3 {
+    margin-right: 0;
+}
+.Half {
+    display: inline-block;
+    width: 47.7%;
+}
+.Half3 {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 5%;
+}
+.Half4 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 5%;
+}
+.Half5 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 1%;
+}
+.bgvid{
+margin: 0 auto;
+width: 80%;
+padding-top: 5%;
+}
+.Three {
+    display: inline-block;
+    width: 30%;
+}
+.Project {
+    margin: 1% 0 7.7%;
+    line-height: 114%;
+}
+.Light {
+    font-weight:lighter;
+    font-weight: 400;
+}
+.ViewAll {
+    text-align: center;
+    line-height: 440%;
+}
+.MenuSlider {
+    overflow-x: hidden;
+    position: relative;
+    width: 104%;
+    white-space: nowrap;
+}
+.Slide {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.Slide >.IMG {
+    width: 92.4%;
+}
+.members > p, .about4 > p{
+    margin-top:1%;
+    color:#919191;
+    font-size:26px;
+    line-height:135%;
+    white-space:nowrap;
+}
+.BorderL {
+    overflow: hidden;
+    position: relative;
+    clear: both;
+}
+.members > p:first-line{
+    color:black;
+}
+.Bottom {
+    clear: both;
+    padding-right: 0.8%;
+/*    width: 100%;*/
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+/* 상품 */
+
+.WorkTitle {
+    margin-bottom: 1.9%;
+}
+.WorkTitle h2 {
+    margin-top: 3.4%;
+    line-height: 115%;
+}
+.WorkTitle p {
+    margin-top: 0.3%;
+}
+.Half span {
+    display: block;
+}
+.WorkTitle2 span {
+    margin-top: 5.1%;
+    line-height: 120%;
+    padding-left: 35%;
+}
+.Description2 {
+    margin-bottom: 6.5%;
+    line-height: 142%;
+}
+.Description3 {
+    margin-bottom: 3.5%;
+    line-height: 142%;
+}
+.Description4 {
+    margin-bottom: 6.5%;
+    line-height: 142%;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.Description5 {
+    margin-bottom: 6.5%;
+    line-height: 142%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.Margin {
+    clear: both;
+    height: 1.6vw;
+    max-height: 48px;
+    width: 100%;
+}
+.MR2 {
+    margin-right: 2.6%;
+}
+.Half2 {
+    display: inline-block;
+    width: 47.7%;
+}
+.Half2 span {
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    display: inline-block;
+    line-height: 134%;
+}
+.Related {
+    clear: both;
+    position: relative;
+    margin: 4.8% 0 2%;
+}
+.Trisection {
+    display: inline-block;
+    width: 30.6%;
+}
+
+
+/* mediaquery */
+@media all and (max-width: 640px) {
+.WorkTitle2 span {padding-left: 0;}
+.bgvid {width: 100%;}
+.Description4 {width: 100%;}
+.Half3 {width: 100%;}
+.Three {width: 45%;}
+.MA3 {margin-right: 4%;}
+.MenuContainer{width:100%;}
+.MENUBTN{display:block; width:8%; height:8vw; position:relative;}
+.FixedContainer{padding:4vw 4vw 2vw;background:#FFF;z-index:1;width:92%;height:auto;}
+.BorderB{border-top:4px solid black;}
+.BorderL{border-top:1px solid black;}
+.LOGO{width:36%; height:auto; position:relative;}
+.LOGO, .MENU{float:left; clear:both;}
+.MENU{display:none; width:100%; height:100vh; padding-top:1vh;}
+.Bottom, .MainContainer{padding:0 4% 0; margin:0 auto; width:92%; overflow-x:hidden;}
+.Bottom{padding-bottom:14vw;}
+.FAKE{position:relative; z-index:0; height:14vw; display:inline-block;}
+.Half2 span{font-size:18px;}
+.Project{margin:-1% 0 4.2%;}
+/* 모바일 메뉴 */
+    
+
+}
+@media all and (min-width: 641px) and (max-width: 960px) {
+
+.Three {width: 45%;}
+.MA3 {margin-right: 4%;}
+.FixedContainer{padding-top:4vw;}
+.BorderB{border-top:5px solid black;}
+.BorderL{border-top:2px solid black;}
+.LOGO, .MENU{float:left; clear:both; width:15%}
+.MENU{margin-top:2vw;}
+.MainContainer{padding-top:4.5vw;}
+.Bottom, .MainContainer{padding-right:4%; margin:0; float:right; width:70%;}
+.MenuContainer{padding-left:4%; margin:0; width:100%;}
+.Project{margin:-1% 0 4%;}
+}
+@media all and (min-width: 961px) and (max-width: 1280px) {
+/*.row {padding: 0 15px;}*/
+.MA3 {margin-right: 4%;}
+.Three {width: 45%;}
+.BorderB{border-top:6px solid black;}
+.BorderL{border-top:2px solid black;}
+.Bottom{padding-bottom:5vw;}
+.Project{margin-bottom:5.5%;}
+}
+@media all and (min-width: 1281px) and (max-width: 1600px) {
+.Three {width: 45%;}
+.MA3 {margin-right: 4%;}
+.BorderB{border-top:7px solid black;}
+.BorderL{border-top:3px solid black;}
+.Bottom{padding-bottom:5vw;}
+.Project{margin-bottom:6.5%;}
+}
+@media all and (min-width: 1601px) and (max-width: 1920px) {
+.BorderB{border-top:8px solid black;}
+.BorderL{border-top:3px solid black;}
+.Bottom{padding-bottom:4vw;}
+.Project{margin-bottom:7%;}
+}
+@media all and (min-width: 1921px) and (max-width: 2240px) {
+.BorderB{border-top:9px solid black;}
+}

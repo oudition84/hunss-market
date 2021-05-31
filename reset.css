@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Nanum+Gothic&display=swap');
+
+
+/* 여백 초기화 */
+body,div,ul,li,dl,dd,dt,ol,h1,h2,h3,h4,h5,h6,input,fieldset,legend,p,select,table,th,td,tr,textarea,button,form,figure,figcaption{margin:0;padding:0;}
+
+
+body, h1, h2, h3, h4, h5, h6, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, blockquote, q, th, td, caption, table, div, span, object, iframe, p, pre, a, abbr, acronym, address, code, del, dfn, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;}
+    
+/* a 링크 초기화 */
+a {text-decoration: none;}
+/*a:hover {color: #2698cb;}*/
+
+/* 폰트 초기화 */
+/*body, input, textarea, select, button, table {font-family:'Noto Sans JP','nanumbarungothic','나눔바른고딕' 'Nanum Gothic','돋움',sans-serif;}*/
+body {font-family: 'Hind Vadodara', '나눔바른고딕', 'Nanum Gothic','돋움', sans-serif;}
+
+/* 폰트 스타일 초기화 */
+em,address {font-style: normal;}
+
+/* 블릿기호 초기화 */
+ul,li,ol {list-style: none;}
+
+/* 제목 태그 초기화 */
+/*h1,h2,h3,h4,h5,h6 {font-size: 13px; font-weight: normal;}*/
+
+/* 클리어 픽스 */
+.clearfix {*zoom:1;}
+.clearfix:before, .clearfix:after {content: ''; display: block; line-height: 0;}
+.clearfix:after {clear: both;}
+
+
+blockquote:before,blockquote:after,q:before,q:after {
+content:"";
+}
+
+th,td,caption {
+float:none!important;
+text-align:left;
+font-weight:400;
+vertical-align:middle;
+}
+
+table {
+border-collapse:separate;
+border-spacing:0;
+vertical-align:middle;
+}
+
+body {
+position:absolute;
+overflow-y:auto;
+overflow-x:hidden;
+width:100%;
+background:#FFF;
+font-family:'Hind Vadodara',Helvetica,Arial,sans-serif;
+font-weight:600;
+}
+::-moz-selection {
+background: black;
+}
+::selection {
+background: black;
+}
+
+
+/* 버튼 초기화 */
+button {border: 0;}
+
+/* 반응형 이미지 */
+img,video {width: 100%;
+display: block;
+}
+
